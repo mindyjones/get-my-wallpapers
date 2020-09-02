@@ -1,12 +1,18 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Search from "./components/search/Search";
+import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello from React</h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <MuiThemeProvider>
+        <div className="App">
+          <Search />
+        </div>
+      </MuiThemeProvider>
+    );
+  }
 }
 
 export default App;
