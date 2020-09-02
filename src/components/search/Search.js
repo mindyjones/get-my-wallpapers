@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Search.css";
 import Axios from "axios";
-import imageResults from "../imageResults/imageResults";
+import ImageResults from "../imageResults/ImageResults";
 
 class Search extends Component {
   state = {
@@ -37,8 +37,9 @@ class Search extends Component {
           value={this.state.searchText}
           onChange={this.onTextChange}
         />
+        <br />
         {this.state.images.length > 0 ? (
-          <imageResults images={this.state.images} />
+          <ImageResults images={this.state.images} />
         ) : null}
       </div>
     );
