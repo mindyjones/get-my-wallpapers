@@ -1,4 +1,4 @@
-## Image Search
+## Get My Wallpapers
 
 ## Tech Used
 
@@ -7,10 +7,10 @@
 - CSS
 - HTML
 
-<!-- ## To Do
+## To Do
 
 - [x] Update CSS
-- [ ] Improve UI/UX -->
+- [ ] Improve UI/UX
 
 ---
 
