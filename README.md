@@ -1,4 +1,5 @@
 ## Get My Wallpapers
+* React web application to find daily wallpaper for free.
 
 ## Tech Used
 
