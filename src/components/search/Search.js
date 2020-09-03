@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Axios from "axios";
-import ImageResults from "../imageResults/ImageResults";
+import ImageResults from "../imageResults/ImageResults"
 
 class Search extends Component {
   state = {
