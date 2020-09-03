@@ -1,9 +1,43 @@
-.App {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap");
+
+:root {
+  --primary: #2c3335;
+  --secondary: #a4b0bd;
 }
+
 body {
-  background-color: black;
+  background-color: #f4f4f4;
+  font-family: "Open Sans", sans-serif;
+  color: var(--secondary);
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title h1 {
+  color: var(--primary);
+  text-align: center;
+  margin-top: 60px;
+  font-size: 4rem;
+}
+
+input {
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--primary);
+  border-radius: 50px;
+  padding: 20px 60px;
+  width: 100%;
+  color: var(--primary);
+  font-size: 18px;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+}
+
+input:hover {
+  background: white;
+  color: black;
 }
