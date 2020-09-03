@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Search.css";
 import Axios from "axios";
 import ImageResults from "../imageResults/ImageResults";
 
@@ -32,7 +31,7 @@ class Search extends Component {
       <div>
         <input
           type="text"
-          placeholder="Search for images"
+          placeholder="Search here..."
           name="searchText"
           value={this.state.searchText}
           onChange={this.onTextChange}
