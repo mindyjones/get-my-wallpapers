@@ -1,5 +1,8 @@
 ## Get My Wallpapers
-* React web application to find daily wallpaper for free.
+
+- React web application to find daily wallpaper for free.
+- API provided by [Pixabay](https://pixabay.com/)
+- Visit - [Get My Wallpapers]()
 
 ## Tech Used
 
@@ -29,6 +32,15 @@ npm start
 ```
 
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser. Runs the app in the development mode.
+- To deploy
+
+```
+npm run build
+```
+
+```
+./build
+```
 
 ---
 
