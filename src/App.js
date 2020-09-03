@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Search from "./components/search/Search";
+import Search from "./components/Search";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import Title from "./components/Title";
 
