@@ -1,4 +1,4 @@
-## Get My Wallpapers
+# Get My Wallpapers
 [![Netlify Status](https://api.netlify.com/api/v1/badges/27d12175-e048-4299-9b56-39c0215d9fe5/deploy-status)](https://app.netlify.com/sites/nostalgic-meninsky-e473bb/deploys)
 
 - React web application to find daily wallpaper for free.
@@ -45,7 +45,7 @@ npm run build
 
 ---
 
-# Author
+## Author
 
 - Name - Abhinav
 - GitHub - [github.com/abhinavg916](https://github.com/abhinavg916)
